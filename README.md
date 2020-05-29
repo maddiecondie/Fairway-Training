@@ -96,7 +96,11 @@ The following steps of ordering are listed in order of milestones (listed in "Un
 - Input business name in `Company Name` IF there is no work address, only home address, Input "Home Address" in red ink instead. 
 - Input address information to their corresponding columns.
     - `Physical Street Two` refers to Apt #'s, Unit #'s, Room #'s, Suite/Ste #'s, Building #'s, etc. 
-    
+- BOOK: Log into Encompass 
+    - Enter Borrower's file (refer to Tea/Spray instructions)
+    - Under `Forms` double click `1003 Page 1`
+    - Scroll down to `III Borrower Information` and under `Borrower` view `Dependents #` & `Ages` 
+        - IF there are 1 or more dependents listed at age(s) 12 or under, they are eligle for a book. If there are a number of dependents, but no ages listed- don't send book. 
 #### _Order Cutting Boards_
 
 - 
