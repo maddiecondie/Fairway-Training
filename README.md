@@ -27,6 +27,19 @@
 
 - - - 
 
+## Terminology
+- LO : Loan Officer
+- LOA : Loan Officer Assistant
+- CTC : Clear To Close
+- UW : Underwriting
+- DND : Do Not Disturb (generally morning from `8:00 - 11:30 AM` for Processing, `8:00 - 10:30 AM` for LOs)
+- Refi : Refinance
+- IM : Instant Message on Skype for Business 
+- VOE : Verification Of Employment 
+
+
+- - -
+
 ## Email Organization:
 ### Important Emails:
 - `"Please order"` means it is either cutting board or cookie/book, no need to even open the email. Flag it.
@@ -58,35 +71,49 @@
 
 ## Task Instructions:
 ### Ordering
-#### Order Cutting Boards
+The following steps of ordering are listed in order of milestones (listed in "Understanding the Process")
 
-#### Order Tea/Spray
+#### _Order Tea/Spray_
+-  Get email from LO
+-
 
-#### Order Cookies and Book
-- Loan Officer (LO) sends email that says `Please order cookies and The Berenstain Bears Moving Day book` (**AUTOMATABLE: put in appropriate email folder**)
+#### _Order Cookies and Book_
+- PREP `FairwayShipTemp-OverTheTop` excell spreadsheet (usually done Monday morning for the following week)
+    - Select 10 or so rows on the far left > right click > insert
+    - `unbold` previous week's orders > `bold` current week's orders
+    - Insert that Fridays date (example: 29-May) into the `Order Date` column for every order that week
+    - leave 2 empty rows between each week and the top labels for easier reading
+    - Tip- Save changes every once in awhile to prevent headaches if anything crashes
+- LO sends email that says `Please order cookies and The Berenstain Bears Moving Day book` (**AUTOMATABLE: put in appropriate email folder**)
+- Input Borrower's first and last name into `FairwayShipTemp-OverTheTop` excell spreadsheet in `Contact Name` column 
+   - If there are 2 names in the LO email, only put the first name. Generally the second name is the Co-Borrower.   
 - Look for business address
     - Log into Citrix Portal
     - `Files` > `Home Drive (X:)` > `2020` > LO Firstname_Lastname Folder > Borrower Lastname_Firstname Folder > `Submission Cover Letter` or occasionally `LO Cover Letter` 
     - Scroll down to `Notes to Processing`
     - On the top row of fields, there will either be a business name and work address OR home address
         - Ocassionally, the field will say the `home address` but doesn't include the actual address. In those cases, find it in Encompass (refer to Tea/Spray instructions)
-    - 
+- Input business name in `Company Name` 
+    
+#### _Order Cutting Boards_
+
+- 
 
 ### Shipping
-#### Ship Tea/Spray
-#### Ship Cookies and Book
+#### _Ship Tea/Spray_
+#### _Ship Cookies and Book_
 
 ### HomeScout Emails
 - Josh sends `"New Customer Registration"` email with new customer info
 - Log into BnTouch > `Mortgages` tab > Magnifying Glass Search Icon
 - Search for the name to make sure a profile for that customer has not been created
-- If the name search has a result with an `Added Date` within the last year, do NOT create new profile.
+- If the name search has a result with an `Added Date` within the last year, do NOT create new profile. Check off email and you're done, skip the following steps.
 - If the search has no results, create a new profile:
     - Hit the `+` icon on the `Mortgages` tab
     - `Personal Borrower` > Insert borrower's first and last name
     - Scroll to `Contact Borrower` > Copy and paste borrower's email and cell phone number from Josh's email
     - Scroll down to `Additional Information` > `Source` field > Type "HomeScout" 
-    - Submit form
+    - Submit form by clicking `Add Record` or press enter
     - `Marketing Sequence` field > Change "Lead" to "Long Term Follow Up"
     - `SOURCE` field > Select "HomeScout" option
     - `HomeScout Emails` field > Select "Yes"
