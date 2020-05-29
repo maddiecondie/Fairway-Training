@@ -39,7 +39,7 @@
     - "Jeana" : Assistant Work, Tasks, Custom Reports
     - "Joe Kieszekj" : Cookie Contact
     - "New Applications" : Routine Reports
-    - "PLP" : These emails require action, and after finishing tasks, corresponding emails are moved here.
+    - "PLP" : These emails require action and todo will go here as `flagged` and completed will be `checked` 
         - "Cookies"
         - "Cuting Boards"
         - "HomeScout"
@@ -57,11 +57,24 @@
 - - -
 
 ## Task Instructions:
-### Order cutting boards
+### Ordering
+#### Order Cutting Boards
 
-### Order cookies and order + ship book
+#### Order Tea/Spray
 
-### Order + Ship Tea/Spray
+#### Order Cookies and Book
+- Loan Officer (LO) sends email that says `Please order cookies and The Berenstain Bears Moving Day book` (**AUTOMATABLE: put in appropriate email folder**)
+- Look for business address
+    - Log into Citrix Portal
+    - `Files` > `Home Drive (X:)` > `2020` > LO Firstname_Lastname Folder > Borrower Lastname_Firstname Folder > `Submission Cover Letter` or occasionally `LO Cover Letter` 
+    - Scroll down to `Notes to Processing`
+    - On the top row of fields, there will either be a business name and work address OR home address
+        - Ocassionally, the field will say the `home address` but doesn't include the actual address. In those cases, find it in Encompass (refer to Tea/Spray instructions)
+    - 
+
+### Shipping
+#### Ship Tea/Spray
+#### Ship Cookies and Book
 
 ### HomeScout Emails
 - Josh sends `"New Customer Registration"` email with new customer info
