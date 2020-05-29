@@ -93,7 +93,9 @@ The following steps of ordering are listed in order of milestones (listed in "Un
     - Scroll down to `Notes to Processing`
     - On the top row of fields, there will either be a business name and work address OR home address
         - Ocassionally, the field will say the `home address` but doesn't include the actual address. In those cases, find it in Encompass (refer to Tea/Spray instructions)
-- Input business name in `Company Name` 
+- Input business name in `Company Name` IF there is no work address, only home address, Input "Home Address" in red ink instead. 
+- Input address information to their corresponding columns.
+    - `Physical Street Two` refers to Apt #'s, Unit #'s, Room #'s, Suite/Ste #'s, Building #'s, etc. 
     
 #### _Order Cutting Boards_
 
