@@ -101,6 +101,8 @@ The following steps of ordering are listed in order of milestones (listed in "Un
     - Under `Forms` double click `1003 Page 1`
     - Scroll down to `III Borrower Information` and under `Borrower` view `Dependents #` & `Ages` 
         - IF there are 1 or more dependents listed at age(s) 12 or under, they are eligle for a book. If there are a number of dependents, but no ages listed- don't send book. 
+        - IF they are eligible for a book, copy their home address into the `PLP Shipping Labels List` excel spreadsheet
+            - copy and paste "BOOK" to correctl
 #### _Order Cutting Boards_
 
 - 
