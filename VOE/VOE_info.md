@@ -51,14 +51,33 @@ Needs to be done in the morning when other businesses with other timezones are o
 
 
 # Order of Steps for Non-Self-Employed:
-1. Try "The Work Number" step > If it pulls info up, make sure the `Current As Of` date is at most 7 days ago for PTC or 1 day for PTF
-2. In VOE bucket, sometimes direct employer info is in there, so you can contact someone
-3. IF not, go to 1003 page 1, get correct employment start date info
-4. Search for that company on google
-5. Call them, if hospital, request transfer to HR
-6. Fill Out the VOE Form on local machine
-7. Upload it to the correct VOE folder (VOE Wire = Closing, VOE Funding)
-8. Send email to Processor, Closer, and Branch Ops
+### Planning VVOE Dates
+1. Go to Encompass Pipeline view and find VOE **TODO add more detail**
+1. Open the file of a specific borrower
+1. `Forms` tab > `Show All` and `Show in Alpha Order` checkboxes checked > `Origination Summary`
+1. `Important Dates` section > Check `Estimated Funding` and `Estimated Closing` dates are
+    + If they are the same day, it is generally a purchase, not a refi.
+    + If funding is before closing date (funding won't be before closing in reality), the closing date has been moved, so the funding date for refis will generally be 3 days after the closing date. 
+1. Verify type of loan (refinance vs. purchase)
+    + Borrower Summary - Origination > Purpose of Loan > Check refi or not and type of refi
+    
+### Executing VVOEs
+1. Open eFolder > Check VOE folder > Open the VOE if it exists
+    + Shows us direct employer contact info, occassional start date, and position
+    + If it doesn't exist, that's ok, just continue and get info from other steps
+1. Services > Order Verifications > Work Number > `Report on Borrower` and `Employment Only` and `Current Employers`
+	+ Will have good-as-of date
+	+ If Workday verifies them, no need for Verbal.
+    + If it pulls info up, make sure the `Current As Of` date is:
+        + For PTC: at most 7 days before closing date for PTC
+        + For PTF: on the previous business day before funding for PTF
+1. In VOE bucket, sometimes direct employer info is in there, so you can contact someone
+1. Go to `1003 Page 1`, get correct employment start date info
+1. Search for that company on google
+1. Call them, if hospital, request transfer to HR
+1. Fill Out the VOE Form on local machine
+1. Upload it to the correct VOE folder (VOE Wire = Closing, VOE Funding)
+1. Send email to Processor, Closer, and Branch Ops
 
 # In-Depth Steps
 + Forms > `Borrower Origination - Summary` > `Purpose of Loan` section > Verify refi or not
