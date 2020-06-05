@@ -8,6 +8,20 @@
 5. Send the form to the borrower's business HR email with a filled-out template text
     + Send eSigned `Borrower's Certification and Authorization` through email
     + OR eFax > Send Fax > Fill out fields and make sure that you also send them a return fax number
+    + This is the template. Make sure to change the names:
+        + **Subject:**
+        > Request for Verification of Employment- `Jones, Mike`
+    
+        + **Body:**
+        > Good Morning `Jill`,
+        >
+        > Attached is the Verification of Employment along with the signed Borrower’s Authorization for `Mike Jones`.  Please complete `Part II and Part IV` as applicable.
+        >
+        >It is imperative to have these items back within 24 hours to meet our closing on time. If for any reason you are unable to return these items within that timeframe please let me know. 
+        >
+        >Please let me know how I can assist further or if you have any questions. I appreciate it!
+
+
 6. Fill out `Days to Recieve`, `Requested` after double-clicking on `VOE` document folder
 7. Let the Processor know that you've requested it.
 8. When you recieve it, add it to the regular `VOE` in eFolder
