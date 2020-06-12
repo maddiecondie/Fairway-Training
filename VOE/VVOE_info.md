@@ -14,52 +14,43 @@ Needs to be done in the morning when other businesses with other timezones are o
 + After a refi signing, set a calender date 3 days after to do it.
 + Two types of refinances don't have 3-day recission: refi investment properties and maybe second home refis.
 
-# Instructions
-+ Check if refi:
-	+ Borrower Summary - Origination > Purpose of Loan > Check refi or not and type of refi
-+ Encompass > Forms > Origination Summary
-+ Important Dates section > Check `Estimated Funding` date
-+ 
-+ Check Employment Info
-	+ 1003 Page 1 > Employment Information section
-	+ Show All > Look for current employer
-+ Google business and phone number to check if the listed number is the actual business number
-+ For self-employed: Email processor, they will need a borrower affadavit (specify borrower) and PTF is not needed
-
-+ Order Verifications > Work Number > `Report on Borrower` and `Employment Only` and `Current Employers`
-	+ Will have good-as-of date
-	+ If Workday verifies them, no need for Verbal.
-+ Print button > Custom Forms > Verbal VOE Borrower > Save to local computer to fill out form
-+ Top half for 7 days out, last half closer to 
-+ If they have two dates listed for work starts, pick the one that either is current, or if none are, put in the next
-+ Sign
-+ Make a call to the employer and verify fields
-
-+ Upload a copy to Encompass
-	+ eFolder > File Manager > Upload > Scroll and put in`VOE Prior to Funding` or `VOE Prior to Wire` (Closing)
-
-+ Send email to Encompass > topbar drowpdown > P1, C1, and Branch Ops letting them know the VVOE has been completed
-
 # Self-Employed VOEs 
-+ Verbal VOE for Self Employment
-+ Google `Utah Business entity search` or other state > Search business name
-+ Verify they are active:
-	+ Google business name and look for hours
-	+ Make sure they are able to work from home in their job
-	+ For COVID: Check if they currently have a stay-at-home order
-+ Check according box - Put it in Verbal Prior to Wire
++ This is for Prior to Closing (PTC)
+  + Open blank `Verbal VOE for Self-Employment`
+  + Fill out `Date`, `Closing Date`, `Borrower`, and `Business Name`
+  + Google `Utah Business entity search` or other state > Search business name
+  + Upload screenprint of their business entity to `Verbal Prior to Wire`
+  + Check the `Printout of valid business registration` box in Self-Employment blank sheet
+  + Verify they are active through Google:
+  	+ Google business name and look for hours
+  	+ Make sure they are able to work from home in their job
+  	+ For COVID: Check if they currently have a stay-at-home order
+  	+ Screenclip this business info card from Google and put it in the `Verbal Prior to Wire`
+    + Check `Printout of listing for business on internet` in VOE form
+    + Save and put it in `Verbal Prior to Wire` eFolder bucket
++ For Prior to Funding (PTF):
+  + Send this template:
+	> Hey `Processor`!
+	>
+	>The primary/co- borrower on this file is self-employed. Per current COVID-19 guidelines they will need to sign the attached borrower affidavit no more than 24 hours prior to funding.
+	>
+	>Please let me know if you have any questions.
+  + Also, attach the blank `Borrower's Acknowledge of Employment` affadavit document.
 
 
 # Order of Steps for Non-Self-Employed:
 ### Planning VVOE Dates
-1. Go to Encompass Pipeline view and find VOE **TODO add more detail**
-1. Open the file of a specific borrower
-1. `Forms` tab > `Show All` and `Show in Alpha Order` checkboxes checked > `Origination Summary`
-1. `Important Dates` section > Check `Estimated Funding` and `Estimated Closing` dates are
-    + If they are the same day, it is generally a purchase, not a refi.
-    + If funding is before closing date (funding won't be before closing in reality), the closing date has been moved, so the funding date for refis will generally be 3 days after the closing date. 
-1. Verify type of loan (refinance vs. purchase)
-    + Borrower Summary - Origination > Purpose of Loan > Check refi or not and type of refi
+#### OLD Process
+  1. Go to Encompass Pipeline view and find VOE **TODO add more detail**
+  2. Open the file of a specific borrower
+  3. `Forms` tab > `Show All` and `Show in Alpha Order` checkboxes checked > `Origination Summary`
+  4. `Important Dates` section > Check `Estimated Funding` and `Estimated Closing` dates are
+      + If they are the same day, it is generally a purchase, not a refi.
+      + If funding is before closing date (funding won't be before closing in reality), the closing date has been moved, so the funding date for refis will generally be 3 days after the closing date. 
+  5. Verify type of loan (refinance vs. purchase)
+      + Borrower Summary - Origination > Purpose of Loan > Check refi or not and type of refi
+#### NEW PROCESS
+1. Run VOE-TODO report and format it. Upload it to Microsoft Teams Voes Team
     
 ### Executing VVOEs
 1. Open eFolder > Check VOE folder > Open the VOE if it exists
@@ -98,10 +89,8 @@ Needs to be done in the morning when other businesses with other timezones are o
 + Upload it to the correct VOE folder
 + Send email to Processor (Encomp, Closer, and Branch Ops
 
-# Refinance vs. Purchase
-In 1003 Page 1 > "
-;;;;'//
-
+# Helpful Fairway Resources
++ COVID-19 VVOE FAQ - https://dyzz9obi78pm5.cloudfront.net/app/image/id/5e7929c8ad121c7813f09207/n/covid-19-faq.pdf
 
 
 
