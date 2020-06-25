@@ -19,7 +19,7 @@ Home > Conditional Formatting > Manage Rules > Use a formula to determine which 
 
 
 #### FUNDING DATE
-+ `=AND(AND(WORKDAY(TODAY(),3) > G1, TODAY() <= G1), F1 <= G1)` - LIGHT PINK
++ `=AND(AND(WORKDAY(TODAY(),3) > F1, TODAY() <= F1), E1 <= F1)` - LIGHT PINK
 + `=AND(WORKDAY(TODAY(),1) = F1, E1 <= F1)` - DARK PINK
 + `=AND( F1 = TODAY(), E1 <= F1)` - RED
 
