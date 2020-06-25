@@ -1,0 +1,108 @@
+Sub VOE_Todo_v3()
+'
+' VOE_Todo_v3 Macro
+'
+
+'
+    Columns("C:C").Select
+    Selection.ColumnWidth = 6.57
+    Columns("C:C").Select
+    Selection.FormatConditions.Add Type:=xlCellValue, Operator:=xlEqual, _
+        Formula1:="=""Y"""
+    Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
+    With Selection.FormatConditions(1).Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 13551615
+        .TintAndShade = 0
+    End With
+    Selection.FormatConditions(1).StopIfTrue = False
+    Columns("E:E").Select
+    Selection.FormatConditions.Add Type:=xlExpression, Formula1:= _
+        "= AND(AND(((TODAY() - 6) <= E1), (TODAY() + 7) > E1), OR(NOT(ABS(E1 - K1) <= 7), ISBLANK(K1)))"
+    Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
+    With Selection.FormatConditions(1).Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 13421823
+        .TintAndShade = 0
+    End With
+    Selection.FormatConditions(1).StopIfTrue = False
+    Selection.FormatConditions.Add Type:=xlExpression, Formula1:= _
+        "=AND(TODAY() = E1, OR(NOT(ABS(E1 - K1) <= 7), ISBLANK(K1)))"
+    Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
+    With Selection.FormatConditions(1).Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 10066431
+        .TintAndShade = 0
+    End With
+    Selection.FormatConditions(1).StopIfTrue = False
+    ActiveWindow.SmallScroll Down:=-33
+    Columns("F:F").Select
+    Selection.FormatConditions.Add Type:=xlExpression, Formula1:= _
+        "=AND(AND(WORKDAY(TODAY(),3) > F1, TODAY() <= F1), E1 <= F1)"
+    Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
+    With Selection.FormatConditions(1).Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 10066431
+        .TintAndShade = 0
+    End With
+    Selection.FormatConditions(1).StopIfTrue = False
+    Selection.FormatConditions.Add Type:=xlExpression, Formula1:= _
+        "=AND(WORKDAY(TODAY(),1) = F1, E1 <= F1)"
+    Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
+    With Selection.FormatConditions(1).Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 3342591
+        .TintAndShade = 0
+    End With
+    Selection.FormatConditions(1).StopIfTrue = False
+    Selection.FormatConditions.Add Type:=xlExpression, Formula1:= _
+        "=AND( F1 = TODAY(), E1 <= F1)"
+    Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
+    With Selection.FormatConditions(1).Interior
+        .PatternColorIndex = xlAutomatic
+        .Color = 3342540
+        .TintAndShade = 0
+    End With
+    Selection.FormatConditions(1).StopIfTrue = False
+    Cells.Select
+    Selection.AutoFilter
+    Range("H7").Select
+    Columns("H:H").ColumnWidth = 7.86
+    Columns("E:E").ColumnWidth = 14
+    ActiveWorkbook.Worksheets("Table").AutoFilter.Sort.SortFields.Clear
+    ActiveWorkbook.Worksheets("Table").AutoFilter.Sort.SortFields.Add Key:=Range( _
+        "E1:E223"), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:= _
+        xlSortNormal
+    With ActiveWorkbook.Worksheets("Table").AutoFilter.Sort
+        .Header = xlYes
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .SortMethod = xlPinYin
+        .Apply
+    End With
+    ActiveWorkbook.Worksheets("Table").AutoFilter.Sort.SortFields.Clear
+    ActiveWorkbook.Worksheets("Table").AutoFilter.Sort.SortFields.Add Key:=Range( _
+        "F1:F223"), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:= _
+        xlSortNormal
+    With ActiveWorkbook.Worksheets("Table").AutoFilter.Sort
+        .Header = xlYes
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .SortMethod = xlPinYin
+        .Apply
+    End With
+    ActiveWindow.SmallScroll Down:=-24
+    Columns("D:D").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("D1").Select
+    ActiveCell.FormulaR1C1 = "VOE Team Member"
+    Range("D2").Select
+    Columns("D:D").ColumnWidth = 19.43
+    Columns("D:D").ColumnWidth = 20
+    Columns("H:H").ColumnWidth = 18.57
+    Columns("L:L").ColumnWidth = 20
+    Columns("L:L").ColumnWidth = 17.71
+    ActiveWindow.SmallScroll Down:=-15
+    Range("H11").Select
+    ActiveWindow.SmallScroll Down:=27
+End Sub
