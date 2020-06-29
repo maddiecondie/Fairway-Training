@@ -38,7 +38,7 @@ Sub VOE_Todo_v3()
     ActiveWindow.SmallScroll Down:=-33
     Columns("F:F").Select
     Selection.FormatConditions.Add Type:=xlExpression, Formula1:= _
-        "=AND(AND(WORKDAY(TODAY(),3) > F1, TODAY() <= F1), E1 <= F1)"
+        "= AND(AND((TODAY() <= F1), (WORKDAY(TODAY(),2)) >= F1), OR(NOT(AND(NETWORKDAYS(K1, F1) <= 3, NETWORKDAYS(K1, F1) >= 0)), ISBLANK(K1)))"
     Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
     With Selection.FormatConditions(1).Interior
         .PatternColorIndex = xlAutomatic
@@ -47,7 +47,7 @@ Sub VOE_Todo_v3()
     End With
     Selection.FormatConditions(1).StopIfTrue = False
     Selection.FormatConditions.Add Type:=xlExpression, Formula1:= _
-        "=AND(WORKDAY(TODAY(),1) = F1, E1 <= F1)"
+        "= AND(AND((TODAY() <= F1), (WORKDAY(TODAY(),1)) >= F1), OR(NOT(AND(NETWORKDAYS(K1, F1) <= 3, NETWORKDAYS(K1, F1) >= 0)), ISBLANK(K1)))"
     Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
     With Selection.FormatConditions(1).Interior
         .PatternColorIndex = xlAutomatic
@@ -56,7 +56,7 @@ Sub VOE_Todo_v3()
     End With
     Selection.FormatConditions(1).StopIfTrue = False
     Selection.FormatConditions.Add Type:=xlExpression, Formula1:= _
-        "=AND( F1 = TODAY(), E1 <= F1)"
+        "= AND(TODAY() = F1, OR(NOT(AND(NETWORKDAYS(K1, F1) <= 3, NETWORKDAYS(K1, F1) >= 0)), ISBLANK(K1)))"
     Selection.FormatConditions(Selection.FormatConditions.Count).SetFirstPriority
     With Selection.FormatConditions(1).Interior
         .PatternColorIndex = xlAutomatic
